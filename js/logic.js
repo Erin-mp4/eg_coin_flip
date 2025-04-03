@@ -43,24 +43,24 @@ function someSmartName(param) {
     'do other stuff';         // call the result 'heads'
   };                          
 
-  let;
+  // let;
   // creates a variable to determine the game result
 
   // conditional statement 
-  if (this === that) {    // if values of the coin flip and player choice match,
-    'do stuff here';      // call the result a win
-    'do more stuff';      // and increment global wins counter
-  } else {                // otherwise
-    'do another stuff';   // call it a loss
-    'and do more'         // and increment global loss counter
-  };                      
+  // if (this === that) {    // if values of the coin flip and player choice match,
+  //   'do stuff here';      // call the result a win
+  //   'do more stuff';      // and increment global wins counter
+  // } else {                // otherwise
+  //   'do another stuff';   // call it a loss
+   //  'and do more'         // and increment global loss counter
+  // };                      
 
-  'total of games played'++;
+  // 'total of games played'++;
   // increments the global variable declared outside this function
 
-  let lorem = document.getElementById('ipsum');
+  // let lorem = document.getElementById('ipsum');
   // create a variable and set it to the element to hold the predicted choice 
-  lorem.innerText = choiceName; 
+  // lorem.innerText = choiceName; 
   // output 'heads' or 'tails'
 
   // follow that same pattern for each of the following pairs:
@@ -79,4 +79,14 @@ function someSmartName(param) {
 
   // store an element to output the number of games lost
   // output # of games played (incremented when the function runs)
+   }
+
+function runGame(x) {
+  let pick = x;
+  let choice = document.getElementById('choice');
+  let flip = document.getElementById('flip');
+  let result = document.getElementById('result');
+
+  let randNum = Math.ceil(Math.random() * 2);
+  let toss;
 }
